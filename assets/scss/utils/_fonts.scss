@@ -1,0 +1,50 @@
+.fz{
+  &-1{
+    font-size: 24px;
+  }
+  &-2{
+    font-size: 20px;
+  }
+  &-3{
+    font-size: 16px;
+  }
+  &-md{
+    @include md{
+      &-1{
+        font-size: 24px;
+      }
+      &-2{
+        font-size: 20px;
+      }
+      &-3{
+        font-size: 16px;
+      }
+    }
+  }
+  &-lg{
+    @include lg{
+      &-1{
+        font-size: 24px;
+      }
+      &-2{
+        font-size: 20px;
+      }
+      &-3{
+        font-size: 16px;
+      }
+    }
+  }
+  &-xl{
+    @include xl{
+      &-1{
+        font-size: 24px;
+      }
+      &-2{
+        font-size: 20px;
+      }
+      &-3{
+        font-size: 16px;
+      }
+    }
+  }
+}

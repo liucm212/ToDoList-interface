@@ -1,0 +1,26 @@
+// border
+.hover--outline{
+  &-bottom{
+    position: relative;
+    &:hover::after{
+      content: '';
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      background-color: var(--bs-secondary);
+      transform: translate(-50%, -50%);
+      left: 50%;
+      bottom: 0;
+    }
+  }
+}
+
+
+// text
+.hover--text{
+  &-light{
+    &:hover{
+      color: var(--bs-light);
+    }
+  }
+}

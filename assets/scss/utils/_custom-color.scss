@@ -1,0 +1,16 @@
+$helper-100 : #F2F2F2;
+$helper-200 : #E1E1E1;
+$helper-300 : #C8C8C8;
+$helper-400 : #757575;
+
+
+// 設定色彩對應
+$custom-colors: (
+  'helper-100': $helper-100,
+  'helper-200': $helper-200,
+  'helper-300': $helper-300,
+  'helper-400': $helper-400,  
+);
+
+// 合併到色彩設定
+$theme-colors: map-merge($theme-colors, $custom-colors);
