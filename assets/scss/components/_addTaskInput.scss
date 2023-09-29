@@ -1,0 +1,20 @@
+.addTaskInput{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  padding: 18px 32px;
+  border: 2px solid var(--bs-helper-300);
+  border-radius: 5px;
+  color: var(--bs-helper-300);
+  &:hover{
+    color: var(--bs-helper-400);
+  }
+  &:active{
+    color: var(--bs-helper-300);
+  }
+  @include lg{
+    font-size: 24px;
+    
+  }
+}

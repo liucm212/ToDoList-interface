@@ -67,10 +67,19 @@
 @import './layout/header';
 @import './layout/footer';
 
+//components
+@import './components/addTaskInput';
+@import './components/mainTaskBlock';
+
 // utils
+
 @import './utils/fonts';
 @import './utils/util';
+@import './utils/position';
 @import './utils/hover';
+@import './utils/border';
+@import './utils/icons';
+
 
 
 // pages

@@ -24,3 +24,23 @@
     }
   }
 }
+
+//背景顏色hover & active
+.bg{
+  &-primary{
+    &:hover{
+      background-color: darken($primary, 10%) !important;
+    }
+    &:active{
+      background-color: $primary !important;
+    }
+  }
+  &-light{
+    &:hover{
+      background-color: darken($light, 10%) !important;
+    }
+    &:active{
+      background-color: $light !important;
+    }
+  }
+}
