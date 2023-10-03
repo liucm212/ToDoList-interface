@@ -4,7 +4,6 @@
   background-color: var(--bs-helper-100);
   
   .block-header{
-    border-bottom: 1px solid var(--bs-helper-300);
     // check
     .block-check{
       width: 24px;
@@ -22,8 +21,7 @@
     }
   }
   .block-body{
-    max-width: 480px;
-    margin: 24px auto;
+    padding: 24px;
     //每個content的title都相同架構
     .body-title{
       font-size: 20px;

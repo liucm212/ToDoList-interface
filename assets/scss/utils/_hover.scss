@@ -23,6 +23,11 @@
       color: var(--bs-light);
     }
   }
+  &-dark{
+    &:hover{
+      color: var(--bs-dark);
+    }
+  }
 }
 
 //背景顏色hover & active

@@ -1,0 +1,83 @@
+// 單個任務 Block
+.taskBlock{
+  border: 1px solid var(--bs-helper-300);
+  border-radius: 5px;
+  background-color: var(--bs-helper-100);
+  // check
+  .block-check{
+    width: 24px;
+    height: 24px;
+  }
+  .block-header{
+    // title
+    .block-title{
+      vertical-align: middle;
+      font-size: 20px;
+      line-height: 1;
+      border: none;
+      background-color: transparent;
+      max-width: 100%;
+      &:focus-visible{
+        outline: none;
+      }
+    }
+    .title-icon{
+      color: var(--bs-helper-400);
+      font-size: 20px;
+    }
+  }
+  .block-body--primary{
+  }
+  .block-body--secondary{
+    .block-body{
+      padding: 24px;
+      //每個content的title都相同架構
+      .body-title{
+        font-size: 20px;
+        font-weight: 700;
+      }
+      //每個content的content都相同架構
+      .body-content{
+        padding-left: 30px;
+        .input-text{
+          border: none;
+          border-radius: 2px;
+          background-color: var(--bs-light);
+          color: var(--bs-helper-300);
+          padding: 8px 16px;
+          &:focus-visible{
+            outline: 1px solid var(--bs-primary);
+          }
+        }
+        .input-file{
+          width: 32px;
+          height: 32px;
+          padding: 8px;
+          display: inline-block;
+          color: var(--bs-light);
+          background-color: var(--bs-helper-300);
+          border: none;
+          border-radius: 2px;
+          cursor: pointer;
+          &:hover{
+            background-color: var(--bs-helper-400);
+          }
+          &:active{
+            background-color: var(--bs-helper-300);
+          }
+        }
+      }
+    }
+    .block-footer{
+      .footer-button{
+        display: block;
+        width: 100%;
+        border: none;
+        font-size: 24px;
+        .icon{
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

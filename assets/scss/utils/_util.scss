@@ -1,0 +1,10 @@
+// cursor
+.cursor-pointer{
+  cursor: pointer;
+}
+
+// line-through
+.line-through{
+  text-decoration: line-through;
+  text-decoration-color : var(--bs-helper-400)
+}
