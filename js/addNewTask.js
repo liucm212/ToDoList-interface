@@ -143,24 +143,24 @@ const singleTaskStructure = `<div
   <div class="block-footer d-flex">
     <div class="w-50">
       <button
-        type="submit"
+        type="button"
         class="footer-button footer-button--cancel d-flex align-items-center justify-content-center text-third bg-light py-16"
       >
         <!-- icon -->
         <span class="material-symbols-outlined me-16"> close </span>
         <!-- text -->
-        <span>Cancel</span>
+        <span class="footer-button-text--cancel">Cancel</span>
       </button>
     </div>
     <div class="w-50">
       <button
-        type="submit"
+        type="button"
         class="footer-button footer-button--save d-flex align-items-center justify-content-center text-light bg-primary py-16"
       >
         <!-- icon -->
-        <span class="material-symbols-outlined me-16"> add </span>
+        <span class="material-symbols-outlined me-16"> save </span>
         <!-- text -->
-        <span>Add Task</span>
+        <span class="footer-button-text--save">Save Task</span>
       </button>
     </div>
   </div>
